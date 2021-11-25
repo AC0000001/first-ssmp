@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     public String Say(){
-        return "Hello N+";
+        return "Hello N+ ";
     }
 
 }
