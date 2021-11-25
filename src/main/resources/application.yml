@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://c.tx.server.sizhu.tech:3306/xsk_seed?serverTimezone=UTC
+      username: xsk_mysql
+      password: nplus@2021_seed_bf4ea082
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
